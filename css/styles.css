@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'gotham';
+    src: url(../fonts/Gotham-Black.otf);
+}
+
+*{
+    font-family: 'gotham';
+}
+
+.border-bottom-red{
+    border-bottom: 2px solid #E51F40 !important;
+}
+
+.red-backgound{
+    background: #E51F40;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+.gray-background{
+    background: #474747;
+}
+
+.red-backgound a, .gray-background a{
+    color: #ffffff !important;
+}
+
+.red-backgound a:hover, .gray-background a:hover{
+    color: #ffffff !important;
+}
+
+.btn-primary{
+    background: #5FA72C !important;
+    border: #5FA72C;
+    width: 100%;
+    border-radius: 10px;
+    /*transition: 1s;*/
+}
+
+.btn-primary:hover{
+    background: #4b7437 !important;
+    border: #4b7437;
+    border-radius: 10px;
+}
+
+.form-control{
+    border-radius: 10px;
+    border: #5FA72C 1px solid;
+}
+
+.navbar-toggler{
+    background: #5FA72C !important;
+    border: #5FA72C;
+}
+
+#terminos, #aviso, #faq{
+    font-size: 10px;
+    color: #000000;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 32px; /* Vertically center the text there */
+}
+
+.nav-item{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.nav-selected-item{
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #e41f40;
+    color: #e41f40 !important;
+}
+
+.green{
+    color: #64A70B !important;
+}
+
+.blue{
+    color: #003087 !important;
+}
+
+.circulo{
+    background: #003087;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+a{
+    color: #64A70B !important;
+}
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+/* Not required for template or sticky footer method. */
